@@ -20,6 +20,9 @@ output_dir = 'F:\\zhuwenwen\\Test_cases\\output\\'
 
 
 # -----------------------图片反色-----------------------------#
+'''
+    pass
+'''
 def ImgColorConvert(filename):
     count = 0
     im = Image.open(filename)
@@ -106,6 +109,9 @@ def pixel_gray_mean(img_name_gray):
 
 
 # -----------------------汉字转拼音-----------------------------#
+'''
+    pass
+'''
 def hanzi2pinyin(inputpath, outputPath):
     count = 0
     # 该文件夹下所有的文件（包括文件夹）
@@ -138,6 +144,9 @@ def hanzi2pinyin(inputpath, outputPath):
 
 
 # -----------------------将dcm文件转换为jpg文件-----------------------------#
+'''
+    pass
+'''
 jug = []
 
 def loadFile(filename):
@@ -203,6 +212,9 @@ for filename in os.listdir(inputpath):
 
 
 # -----------------------对图片进行旋转-----------------------------#
+'''
+    pass
+'''
 def rotate(data, ori='left'):
     if ori == 'left':
         data = list(map(list, zip(*data)))[::-1]
@@ -446,6 +458,9 @@ for file in files:
 
 
 # -----------------移动文件----------------- #
+'''
+    pass
+'''
 def movefile(inputpath, inputpath_2, outputpath):
     files_ori = os.listdir(inputpath)
     files_des = os.listdir(inputpath_2)
@@ -458,6 +473,9 @@ def movefile(inputpath, inputpath_2, outputpath):
 
 
 # ----------------------------将png转成jpg--------------------------- #
+'''
+    pass
+'''
 def PNG_JPG(inputpath):
     img = cv2.imread(inputpath, 0)
     w, h = img.shape[::-1]
