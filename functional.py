@@ -1,3 +1,11 @@
+"""
+
+    Author:zhuwenwen
+    Email：stephenbarrnet@gmail.com
+    Date: 2020-09-23
+
+"""
+
 from __future__ import division
 import torch
 import math
